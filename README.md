@@ -127,8 +127,8 @@ Ce projet vise à démontrer :
 
 ## 👥 Contributeurs
 
-- **François Gonon** - Analyse de données et visualisations
-- **François Thievon** - Développement et interface interactive
+- **François Gonon**
+- **François Thievon**
 
 ## 📚 Ressources
 

@@ -9,7 +9,7 @@
 
 ## 📖 Description
 
-**Data Viz Pokédex** est un projet d'analyse et de visualisation de données interactives explorant l'univers des Pokémon. Ce projet présente une étude statistique complète des 151 premiers Pokémon à travers des visualisations dynamiques et esthétiques.
+**Data Viz Pokédex** est un projet d'analyse et de visualisation de données interactives explorant l'univers des Pokémon. Ce projet présente une étude statistique complète de **toutes les 9 générations** de Pokémon à travers des visualisations dynamiques et esthétiques.
 
 Développé par **François Gonon** et **François Thievon** dans le cadre du cours de Data Visualization, ce projet combine analyse statistique approfondie et storytelling visuel pour révéler les secrets cachés du monde Pokémon.
 
@@ -19,7 +19,7 @@ Développé par **François Gonon** et **François Thievon** dans le cadre du co
 - **Distribution des types** : Répartition et fréquence des types de Pokémon
 - **Analyse des statistiques** : HP, Attaque, Défense, Vitesse, etc.
 - **Corrélations** : Relations entre les différentes caractéristiques
-- **Comparaisons générationnelles** : Évolution des Pokémon à travers les générations
+- **Comparaisons générationnelles** : Évolution des Pokémon à travers les 9 générations
 
 ### 🎨 Visualisations Interactives
 - **Graphiques Plotly interactifs** : Zoom, filtres, et exploration dynamique
@@ -76,19 +76,19 @@ Data_Viz_Pokedex/
 └── 🖼️ images/                  # Collection d'images des Pokémon
     ├── 1.jpg                   # Bulbizarre
     ├── 2.jpg                   # Herbizarre
-    ├── ...                     # Tous les sprites Pokémon
-    └── 151.jpg                 # Mew
+    ├── ...                     # Tous les sprites Pokémon (Gen 1-9)
+    └── 1003.jpg                # Pokémon les plus récents
 ```
 
 ## 📊 Données Utilisées
 
-Le dataset contient **1027 Pokémon** avec les caractéristiques suivantes :
+Le dataset contient **1027 Pokémon** couvrant **les 9 générations** avec les caractéristiques suivantes :
 - **Identifiant** : ID unique
 - **Nom** : Nom du Pokémon
 - **Types** : Type primaire et secondaire
 - **Statistiques** : HP, Attaque, Défense, Attaque Spé, Défense Spé, Vitesse
 - **Caractéristiques physiques** : Taille, Poids
-- **Métadonnées** : Génération, Total des stats
+- **Métadonnées** : Génération (1-9), Total des stats
 
 ### Variables calculées :
 - **IMC** : Indice de Masse Corporelle (Poids/Taille²)
